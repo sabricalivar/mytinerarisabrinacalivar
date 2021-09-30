@@ -280,7 +280,7 @@ const Signup = (props) => {
                            <button className='text-white bg-transparent text-center p-1 border border-1 budge rounded-3  mb-2 bg-transparent me-md-3 d-none d-md-block  text-whitep-2  mt-1'><smal><span className='' onClick={formSignup}>Sign up</span></smal></button>
                             <p className='text-light text-center'>or</p>
                             <GoogleLogin className='p-1 border border-1 budge rounded-3 text-center mb-2 bg-transparent me-md-3 d-none d-md-block  text-white'
-                                clientId="151480333325-p581317r3fprst9nqpiuas3gqn2ie184.apps.googleusercontent.com"
+                                clientId="151480333325-ck9fq05hfeqgv3rdpgd7nuhbu8t9gcjp.apps.googleusercontent.com"
                                 buttonText="Doit whith Google nomad!"
                                 onSuccess={responseGoogle}
                                 onFailure={responseGoogle}

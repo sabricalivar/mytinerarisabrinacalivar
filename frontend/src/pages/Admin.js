@@ -33,7 +33,7 @@ const DataCharge = (props) => {
 
     const sendData = () => {
         axios
-            .post('http://localhost:4000/api/cities', newCity)
+            .post('https://mytinerarysabrinacalivar.herokuapp.com/api/cities', newCity)
             .then((res) => {
                 if (res.data.success) {
                     props.history.push('/cities')

@@ -3,7 +3,7 @@ const usersActions ={
 
     signUp: (newUser) =>{
         return async (dispatch, getstate)=> {
-            let response = await axios.post('http://localhost:4000/api/user/signup', {...newUser})
+            let response = await axios.post('https://mytinerarysabrinacalivar.herokuapp.com/api/user/signup', {...newUser})
             if (response.data.success)    {
                 dispatch({type:'LOG_INTO', payload: response.data.response})
             }
@@ -14,7 +14,7 @@ const usersActions ={
     
     logIn: (loginUser) =>{
         return async (dispatch, getstate)=> {
-            let response = await axios.post('http://localhost:4000/api/user/login', {...loginUser})
+            let response = await axios.post('https://mytinerarysabrinacalivar.herokuapp.com/api/user/login', {...loginUser})
             if (response.data.success)    {
                 dispatch({type:'LOG_INTO', payload: response.data.response})
             }
@@ -31,7 +31,7 @@ const usersActions ={
     logInLS:(token)=>{
         return async (dispatch,getState)=>{
             axios
-                .get('http://localhost:4000/api/verifyToken',{
+                .get('https://mytinerarysabrinacalivar.herokuapp.com/api/verifyToken',{
                 headers:{
                     Authorization: 'Bearer '+token
                 },

@@ -111,7 +111,7 @@ const Login = (props) => {
                                     Let´s go;
                                 </button>
                                 <GoogleLogin className='p-1 border border-1 budge rounded-3 text-center mb-2 bg-transparent me-sm-3 d-none d-sm-block text-white'
-                                    clientId="151480333325-p581317r3fprst9nqpiuas3gqn2ie184.apps.googleusercontent.com"
+                                    clientId="151480333325-ck9fq05hfeqgv3rdpgd7nuhbu8t9gcjp.apps.googleusercontent.com"
                                     buttonText="Login with Google"
                                     onSuccess={responseGoogle}
                                     onFailure={responseGoogle}

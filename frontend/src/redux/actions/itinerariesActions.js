@@ -4,7 +4,7 @@ const itinerariesActions = {
     getAllItineraries: () => {
 
         return async (dispatch, getState) => {
-            let response = await axios.get('http://localhost:4000/api/itineraries')
+            let response = await axios.get('https://mytinerarysabrinacalivar.herokuapp.com/api/itineraries')
             let data = response.data.response
             if (!response.data.success) {
                 throw new Error('Backend-BD')
@@ -17,7 +17,7 @@ const itinerariesActions = {
     getItinerariesByCity: (cityId) => {
         return async (dispatch, getState) => {
             try {
-                let response = await axios.get(`http://localhost:4000/api/itineraries/${cityId}`)
+                let response = await axios.get(`https://mytinerarysabrinacalivar.herokuapp.com/api/itineraries/${cityId}`)
 
                 if (response.data.success) {
                     let data = response.data.response
@@ -37,7 +37,7 @@ const itinerariesActions = {
     putLikesItinerary: (itineraryId, token) => {
         return async (dispatch, getState) => {
             try {
-                let response = await axios.put(`http://localhost:4000/api/itineraries/likes/${itineraryId}`, {},
+                let response = await axios.put(`https://mytinerarysabrinacalivar.herokuapp.com/api/itineraries/likes/${itineraryId}`, {},
                     {
                         headers: {
                             Authorization: 'Bearer ' + token
@@ -57,7 +57,7 @@ const itinerariesActions = {
     putCommentsByItineraryId: (itineraryId, newComment, token) => {
         return async (dispatch, getState) => {
             try {
-                let response = await axios.put(`http://localhost:4000/api/itineraries/comments/${itineraryId}`, { ...newComment },
+                let response = await axios.put(`https://mytinerarysabrinacalivar.herokuapp.com/api/itineraries/comments/${itineraryId}`, { ...newComment },
                     {
                         headers: {
                             Authorization: 'Bearer ' + token
@@ -79,7 +79,7 @@ const itinerariesActions = {
             console.log('toy en el delete')
             console.log(commentId)
             try {
-                let response = await axios.put(`http://localhost:4000/api/itineraries/deleteComments/${itineraryId}`, { commentId },
+                let response = await axios.put(`https://mytinerarysabrinacalivar.herokuapp.com/api/itineraries/deleteComments/${itineraryId}`, { commentId },
                     {
                         headers: {
                             Authorization: 'Bearer ' + token

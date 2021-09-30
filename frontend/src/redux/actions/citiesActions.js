@@ -3,7 +3,7 @@ import axios from 'axios'
 const citiesActions = {
     getAllCities: (props)=>{
         return async (dispatch, getState)=>{
-            let response = await axios.get('http://localhost:4000/api/cities')
+            let response = await axios.get('https://mytinerarysabrinacalivar.herokuapp.com/api/cities')
             let data = response.data.response
             if(!response.data.success){
                 throw new Error('Backend-BD')

@@ -4,7 +4,7 @@ const activitiesActions = {
     postNewActivity: ()=>{
 
         return async (dispatch, getState)=>{
-            let response = await axios.get('http://localhost:4000/api/activities')
+            let response = await axios.get('https://mytinerarysabrinacalivar.herokuapp.com/api/activities')
             let data = response.data.response
             if(!response.data.success){
                 throw new Error('Backend-BD')
@@ -18,7 +18,7 @@ const activitiesActions = {
         return async (dispatch, getState)=>{
             try{
                 // console.log(itineraryId)
-                let response = await axios.get(`http://localhost:4000/api/activity/${itineraryId}`)
+                let response = await axios.get(`https://mytinerarysabrinacalivar.herokuapp.com/api/activity/${itineraryId}`)
                 // console.log(response.data)
                 if(response.data.success){
                     let data = response.data.response
