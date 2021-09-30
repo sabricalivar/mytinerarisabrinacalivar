@@ -1,0 +1,860 @@
+:root{
+  --primary:rgb(145, 145, 145) important!;
+}
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  min-height: 100%;
+}
+
+body{
+  background: rgb(4,8,42);
+  background: linear-gradient(187deg, rgba(4,8,42,1) 0%, rgba(5,9,47,1) 100%);
+  min-height: 100%;
+}
+ 
+.text-primary{
+  color: var(--primary) !important;
+}
+
+
+.navbar{
+  min-height: 4rem;
+  font-size:xx-small;
+}
+a.active{
+  border-bottom: 3px solid rgba(255, 255, 255, 0.227);
+}
+
+.btn-primary{
+  background-color: transparent !important;
+  border-color:transparent !important;
+}
+
+/* .btn-primary{
+  background-color: var(--primary) important!;
+  border-color: var(--primary) important!;
+}
+.btn-primary:focus{
+  background-color: var(--primary) important!;
+  border-color: var(--primary) important!;
+
+}
+.btn-primary:hover{
+  background-color: var(--primary) important!;
+  border-color: var(--primary) important!;
+
+} */
+
+/* .btn-primary:hover{
+  background-color: rgba(255, 248, 220, 0.248);
+  border-color: transparent;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus{
+  background-color: rgba(255, 248, 220, 0.248);
+
+
+}
+.btn.btn-primary{
+  background-color: transparent ;
+  border:solid 3px rgba(39, 37, 37, 0.576);
+  color:black;
+  min-height: 3rem;
+}
+
+a.btn.btn-primary.rounded-circle{
+  background-color: transparent ;
+  border:solid 3px rgba(39, 37, 37, 0.576);
+  color:black;
+  min-height: 3rem;
+}
+
+.btn.btn-primary{
+  background-color: transparent ;
+  border:solid 4px rgba(255, 254, 254, 0.576);
+  color:rgb(255, 255, 255);
+  min-height: 5rem;
+  margin-bottom: 1rem;
+
+}
+
+button.btn.btn-primary.rounded-circle{
+  background-color: transparent ;
+  border:solid 4px rgba(255, 254, 254, 0.576);
+  color:rgb(255, 255, 255);
+  min-height: 5rem;
+  margin-bottom: 1rem;
+} */
+
+ul{
+  margin-top:1rem;
+}
+
+
+/* .Welcome{
+  position:absolute;
+  background-position-x: center;
+  
+} */
+.backgroundHeader{
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position-y: 80%;
+  display:flex;
+  align-content: center;
+
+}
+
+.callToAction{
+  position:relative;
+  top:-30px;
+  left:45.5%;
+  background-color: rgb(6,11,52) !important;
+  color: rgba(242, 242, 242, 0.837) !important;
+  font-weight: bolder !important;
+  border-bottom: thistle !important;
+  height: 4rem;
+  box-shadow: 9px 9px 15px 4px rgba(252, 252, 252, 0.25);
+}
+
+.callToAction:focus{
+  background-color: rgba(242, 242, 242, 0.837) !important;
+  color: rgb(6,11,52) !important;
+
+}
+
+.callToAction:hover{
+  transform: scale(5);
+
+}
+button.callToAction.rounded-pill{
+  padding:1rem;
+}
+
+
+.rounded-circle {
+  border-radius: 10%!important;
+}
+
+.callToAction:hover{
+  transform: scale(1);
+  background-color: rgb(6,11,52)  !important;
+  color: rgb(216, 191, 216) !important;
+}
+/**HERO**********************************************************/
+
+.hero{
+  width: 100%;
+  min-height: 70vh;
+}
+
+@media (min-width: 700px) {
+  .Hero {
+    display:none;
+  }
+}
+
+div#imgContainer{
+  width: 100%;
+  min-height: 100vh;
+  gap:1rem;
+  border:none;
+  display:flex;
+}
+
+div#imgHero{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+  gap:1rem;
+  border:none;
+}
+
+.imgContainer{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+
+/* button{
+  background-color: transparent;
+  border: none;
+  box-shadow: 5px 5px 10px 1px rgba(4, 4, 0, 0.25);
+
+
+} */
+
+.welcome{
+  width: 100%;
+  /* height: 70vh; */
+  box-shadow: 5px 5px 10px 1px rgba(4, 4, 0, 0.25);
+
+}
+
+.logoWelcome{
+  position: absolute;
+  top: 25vh;
+  right: 10vw;
+  box-shadow: 5px 5px 10px 1px rgba(4, 4, 0, 0.25);
+
+}
+
+
+
+/*Carrusel**************************************/
+
+div#imgLinea{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 2rem;
+  gap:1rem;
+  border:none;
+}
+
+
+@media (max-width: 800px) {
+  .textCard {
+    display: none;
+  }
+}
+
+
+p.textCard{
+  font-size: .9rem;
+  width: 100%;
+  display: block;
+}
+
+
+
+.Carrusel{
+  width: 70%;
+  min-height: 70vh;
+}
+.navegador{
+  display:flex;
+  justify-content: space-between;
+}
+
+div.card-img-overlay{
+  font-size:1rem;
+}
+
+.LogoNav{
+  width: 20rem;
+  min-height: 7rem;
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+
+.gallery__container{
+  display:flex;
+  flex-direction: row;
+
+}
+.gallery__img{
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20em;
+  height: 30em;
+}
+
+@media(min-width:425px){
+  .gallery__container{
+    flex-wrap: nowrap;
+  }
+  .gallery__img{
+    width: 16em;
+    height: 25em;
+  }
+}
+
+
+/* .carousel-control-prev-icon{
+
+} */
+
+.carousel-control-next{
+  display:none;
+}
+
+.carousel-control-prev{
+  display:none;
+}
+.sr-only{
+  display:none;
+}
+
+/* .carousel-control-next-icon{
+  
+} */
+
+
+.tituloCarousel{
+  padding:1rem;
+  color:white;
+}
+
+.first, .second, .third, .four{
+  padding:1rem;
+  margin:1rem;
+
+}
+
+.card-img-overlay{
+  border:transparent;
+
+}
+@media (max-width: 425px) {
+  .textCard {
+    display: none;
+  }
+}
+
+
+/*CITIES***********************************************************/
+
+.containerCities{
+  background-repeat: no-repeat;
+  background-size:cover;  
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+ 
+}
+.gallery-container{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows:23rem;
+  grid-gap: 1rem;
+
+}
+
+div.cardOneCity{
+  box-shadow: 5px 5px 10px 1px rgba(255, 255, 255, 0.25);
+}
+
+.gallery-img{
+  width: 90%;
+  height:90%;
+  object-fit:contain;
+}
+
+div#imgCities{
+  background-repeat: no-repeat;
+  background-size: contain ;
+  background-position-y: center;
+  background-position-x: right;
+  width: 100%;
+  height: 23rem;
+  gap:1rem;
+
+}
+
+@media (max-width: 425px) {
+  .gallery-container{
+    grid-template-columns: 1;
+    grid-auto-rows:23rem;
+    grid-gap: 1rem;
+  
+  }
+  
+    
+  div#imgCities{
+    height: 23rem;
+    gap:1rem;
+  }
+}
+@media(max-width:668px){
+  .gallery-container{
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows:10rem;
+    grid-gap: 1rem;
+  
+  }
+  div.cardOneCity{
+    height: 10rem;
+  }
+    
+  div#imgCities{
+    height: 10rem;
+    gap:1rem;
+  }
+}
+
+@media(max-width:768px){
+  .gallery-container{
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows:15rem;
+    grid-gap: 1rem;
+  
+  }
+  div.cardOneCity{
+    height: 15rem;
+  }
+    
+  div#imgCities{
+    height: 15rem;
+    gap:1rem;
+  }
+}
+
+@media (max-width: 845px) {
+  .gallery-container{
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows:20rem;
+    grid-gap: 1rem;
+  
+  }
+  div.cardOneCity{
+    height: 20rem;
+  }
+    
+  div#imgCities{
+    height: 20rem;
+    gap:1rem;
+  }
+
+}
+
+
+.ButtonCities{
+  background-color: rgba(0, 0, 0, 0.508);
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+}
+
+
+/*CITY****************************************************/
+.containerCity{
+  background-repeat: no-repeat;
+  background-size:cover;  
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+ 
+}
+
+#imgCity{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 15rem;
+  height: 15rem;
+  padding:9rem;
+ 
+}
+.img{
+  vertical-align:inherit;
+}
+
+.content{
+  max-width: 500px;
+  
+}
+.btn.btn-secondary{
+  background-color:rgb(209, 196, 9);
+  width: 3 rem;
+  height: 8rem;
+  border-radius: 100%;
+  border: 5px solid rgba(150, 140, 4, 0.453);
+  font-weight: bolder;
+  padding-bottom: 1rem;
+  position:sticky;
+  color:black;
+
+
+}
+
+.btn.btn-cityButon{
+  background-color:rgba(73, 73, 94, 0.494);
+}
+
+div#Crash{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 10rem;
+}
+
+
+.textCity{
+  height: 50vh;
+}
+.ButtonCities{
+  background-color: rgba(0, 0, 0, 0.508);
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+}
+.div.input{
+  background-color:rgba(216, 191, 216, 0.22);
+  border-radius:20px;
+}
+
+.input{
+  font-size: 16px;
+  border:none;
+  width: 50%;
+  text-align: center;
+  padding:.3rem;
+  margin:.5rem;
+  outline:none;
+}
+
+input:focus{
+  border:none;
+  outline: none;
+}
+
+.inputAdmin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input:focus, select:focus, select, input.form-control:focus {
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+input.input{
+  background-color: rgba(216, 191, 216, 0.576) !important;
+}
+
+div.col4{ /*ver*/
+  flex:1 0 50%
+}
+
+.card{
+  background-color: rgba(255, 251, 251, 0.159);
+  border:none;
+}
+
+
+div.card-header.row.col, div.card-footer.text-muted{
+  border:none
+}
+.card-header:first-child{
+  border:none;
+}
+.cardCities.card-img-overlay{
+  background-color: transparent;
+}
+
+
+/**ITINERARIOS***************************************************************/
+
+.divItinerary{
+  min-height: 150vh;
+}
+
+#imgItineraries{
+  background-repeat: no-repeat;
+  background-size: contain ;
+  background-position-y: center;
+  background-position-x: center;
+  width: 200px;
+  height: 200px;
+  gap:2rem;
+  padding:9rem;
+}
+@media(min-width:1024){
+  #imgItineraries{
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-position-y: center;
+    background-position-x: center;
+    width: 100%;
+    height: 40vh;
+    gap:2rem;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px 1px rgba(4, 4, 0, 0.25);
+  }
+
+}
+
+.backgroundItineraries{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  width: 100%;
+  height: 15rem;
+  gap:2rem;
+}
+
+.cardItinerary{
+  height: 150%;
+  width: 100%;
+  box-shadow: 5px 5px 10px 1px rgba(4, 4, 0, 0.25);
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+
+}
+div.progress{
+  background-color: transparent;
+}
+
+.imgUser{
+  width: 50px;
+  height: 50px;
+}
+
+.hashtags{
+  margin-bottom:1rem;
+}
+
+.MyMistake{
+  width: 400px;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+/* .Progress{
+  width: 50%;
+}
+/*  */
+
+/* .iconsContainer{
+  padding:1rem;
+} */
+
+
+/*Login y Signup*/
+.Login{
+  width: 80%;
+  height: 60vh;
+  background-image: url(https://i.postimg.cc/4dL7BTKw/2.gif);
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+input.input{
+  background-color:rgba(216, 191, 216, 0.2) !important;
+  color:thistle;
+  width: 70%;
+}
+select.input{
+  background-color:rgba(216, 191, 216, 0.2) !important;
+  color:thistle;
+  width: 70%;
+}
+
+input:-internal-autofill-selected {
+  appearance: menulist-button;
+  background-color: rgba(232, 240, 254, 0.57) !important;
+  background-image: none !important;
+  color: -internal-light-dark(black, rgba(255, 255, 255, 0.487)) !important;
+}
+
+.Signup{
+  width: 80%;
+  height: 60vh;
+  background-image: url(https://i.postimg.cc/RZq5fLMf/gif-Signup.gif);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+.callToActionSign{
+  box-shadow: 7px 7px 12px 2px rgba(240, 240, 240, 0.25);
+
+}
+
+/*Comments****************************************************************/
+#Comments{
+  max-height: 30vh;
+}
+
+/*Activities**************************************************************/
+#imgActivities{
+  background-repeat: no-repeat;
+  background-size: contain ;
+  background-position-y: center;
+  background-position-x: center;
+  width: 600px;
+  height: 300px;
+  gap:2rem;
+  padding:9rem;
+}
+
+.pActivities{
+  font-weight:100;
+}
+/*Footer******************************************************************/
+
+.backgroundFooter{
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position-y: 80%;
+  display:flex;
+  align-content: center;
+
+}
+.button.btn.btn-link{
+  margin:0px;
+  padding:0px;
+}
+.barras{
+  padding:1rem;
+  margin: .5 rem;
+  background-color: transparent;
+}
+
+Card.div.Button.itineraryButton{
+  width: 100%;
+  height: 6rem;
+  background-color: rgba(226, 117, 7, 0.207);
+  border-radius: 2%;
+  font-weight:lighter;
+}
+
+
+.textActivities{
+  font-size: 1.5rem;
+}
+
+div#accordionFlushExample.accordion.accordion-flush{
+  border:none;
+  /* width: 75%; */
+  box-shadow:none;
+  font-size: 2rem;
+  /* text-align: center; */
+}
+
+#flush-collapseOne{
+  border:none;
+}
+
+#flush-collapse{
+  border:none;
+  border-radius: 20%;
+}
+
+@media(min-width:425px){
+  /* .nameAuthor{
+    display:none;
+  } */
+  /* .nameItinerary{
+    display:none;
+  } */
+}
+@media (max-width: 425px) {
+  /* .nameAuthor{
+    display:none;
+  } */
+  .nameItinerary{
+    display:none;
+  }
+}
+
+@media(min-width:768px){
+   .nameItinerary{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 845px) {
+  .nameAuthor{
+    display:none;
+}
+  .nameItinerary{
+    font-size: display-2;
+  }
+
+}
+.coin{
+  width: 60px;
+  height: 60px;
+  border:none;
+}
+.likeActive{
+  width: 60px;
+  height: 60px;
+}
+
+
+.redes{
+  width: 20rem;
+  min-height: 20rem;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+.copyleft{
+  background-color: rgba(255, 255, 255, 0.111);
+  display: flex;
+  width: 100%;
+  flex-direction:row;
+  justify-content: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 13;
+  padding-top: .5rem;
+  color:rgb(255, 255, 255);
+  padding-bottom: 1rem;
+}
+.copy{
+  -ms-transform: rotate(180deg); 
+transform: rotate(180deg);
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

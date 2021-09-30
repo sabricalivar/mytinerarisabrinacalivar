@@ -1,0 +1,662 @@
+https://www.diariobitcoin.com/tecnologia/bitcoin-tecnologia/todo-sobre-bitcoin-y-las-criptomonedas-en-francia/,
+https://www.conmochila.com/escapada-a-butan-en-11-dias-de-patricia-y-diego
+
+const cities = {
+    {
+        caption: 'Paris',
+        coverPage:'https://i.postimg.cc/5yMqnTWR/1.png'
+        textAlt:´image of suitcase´
+        quote:'Where do you want to see the sunrise?'
+        country: 'France',
+        description: 'France is also very popular among digital nomads, as it contemplates the granting of a visa for self-employed workers that lasts one year and allows you to travel there and get to know the landscapes and their culture inch by inch. In addition to this, the levels of connectivity and coworking services are among the best in the world.',
+        pictures: ['https://i.postimg.cc/gJhS9PJH/2.png',
+                    'https://i.postimg.cc/rpKZJ42b/3.png',
+                    'https://i.postimg.cc/q7SbZ7k7/4.png',],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d68358.36400857786!2d2.27701965694365!3d48.858950681492054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2zUGFyw61zLCBGcmFuY2lh!5e1!3m2!1ses-419!2sar!4v1628923760404!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 25, fixed broadband: 9},
+        voltage:220/230,
+        plugs: tipo E,
+        currency: EUR,
+        cryptocurrencies: BTC, ETH, LTC, BCH,
+        itineraries{
+            1{
+                name: Paris: Secret Montmartre Walking-Tour,
+                author: Lea Donaldson,
+                pictureAuthor:"https://i.postimg.cc/x1ZZtKFX/1.png",
+                textAlt:{type:String},
+                quote:{type:String},
+                activities/schedule:{start: Breakfast here: https://www.cafepimpin.fr/, 
+                                picture:, 
+                                review:
+                          working: Coworking here: https://wellio.com/fr/paris-montmartre/, 
+                                picture:,
+                                review,
+                          enjoy: Enjoy this tour: https://www.getyourguide.co.uk/paris-l16/secret-montmartre-smartphone-audioguided-walking-tour-t394390/?_gl=1%2auz8gfb%2a_gcl_aw%2aR0NMLjE2MjkzMjQxMTIuQ2p3S0NBanczX0tJQmhBMkVpd0FhQUFsaWpYQUI3WTBSaVJRcDUyRXIydmVSM2FwQ090RUVPV2VrdkFkaFd6cnZXbHZRVmVYYTMzbVdSb0NMd3NRQXZEX0J3RQ.,
+                                review: 'From small hidden passages to the famous Sacre-Coeur Basilica, discover the fascinating area of Montmartre. Visit with your smartphone in your pocket and follow the voice of your guide. All commentary begins automatically, right where the action happened.',
+                                duration: 1.5,
+                                pictures: ,
+                          mingle: Mingle here: https://www.facebook.com/LeBarbylone/,
+                                picture:,
+                                review,},
+                price: 1,
+                budget:'Make this money to cover this day: 65 EUR',
+                likes: {type:Number}, //puede ser una wish list?
+                hashtags:#secretMontmartre, #walkingTour, #parisTour, #walkingParis,
+                description: 'Immerse yourself in the bohemian Montmartre neighborhood on a flexible audio tour. Enjoy insightful commentary triggered by location, right where the action happened. Start at Place des Abbesses and follow the audio description through historic streets and squares. Visit famous movie locations and learn the fascinating stories of artists who called this place home. Explore at your own pace with this flexible experience, pausing the tour whenever you like. End at the stunning Sacre-Coeur Basilica, for magnificent panoramas over Paris.',
+                route: {type:String},
+                comments:{type:Array},
+                city:'paris',
+                itemExtra3:{type:Array},
+            }
+            2{
+                name: Paris: Moulin Rouge,
+                author: Liam Kendall,
+                pictureAuthor: {type:String},
+                textAlt:{type:String},
+                quote:{type:String},
+                activities/schedule:{start: Breakfast here: https://www.maison-kayser.com/fr/boulangeries/100001017-gare-de-lyon.html, 
+                                picture:, 
+                                review:
+                          working: Coworking here: https://wellio.com/fr/paris-gare-de-lyon/, 
+                                picture:,
+                                review,
+                          enjoy: Enjoy this tour: https://www.getyourguide.es/paris-l16/paris-espectaculo-moulin-rouge-con-champan-t189477/,
+                                review: 'Revel in the sumptuous settings of the Moulin Rouge, the world-renowned cabaret in Paris, with a ticket to the spectacular show "Féerie". Sip on sparkling Champagne as you savor international performances filled to the brim with feathers and rhinestones.',
+                                duration: 2,
+                                pictures: ,
+                          mingle: Mingle here: https://www.groundcontrolparis.com/https://www.groundcontrolparis.com/,
+                                picture:,
+                                review,},
+                price: 4,
+                budget:'Make this money to cover this day: 200 EUR',
+                likes: {type:Number}, //puede ser una wish list?
+                hashtags:#molinrouge, #nightOnParis, #cabaret, #vipParis,
+                description: 'Take your seats at one of the world’s most famous cabarets at a performance of the Moulin Rouge show “Féerie,” created by Doris Haug and Ruggero Angeletti, and choreographed by Bill Goodson. Watch a troupe of 100 artistes, including 60 Doris Girls, parade in 1,000 flamboyant costumes of feathers, rhinestones and sequins. Designed by Corrado Collabucci, and handmade in some of the most famous workshops in Paris, the costumes are complemented by the sumptuous set designs of Gaetano Castelli, and the return of the giant aquarium. Listen to music by Pierre Porte, brought to life by 80 musicians and 60 choral singers. During the show you will enjoy half a bottle of Champagne as you relish an extravagant oral and aural delight. Feast your eyes on a lavish collection of colors and performances as you behold the splendor of this legendary cabaret.',
+                route: {type:String},
+                comments:{type:Array},
+                city:'paris',
+                itemExtra3:{type:Array},
+            }
+            https://www.getyourguide.es/paris-l16/paris-crucero-de-2-horas-por-el-sena-y-tour-de-audio-con-t402185/
+            https://www.getyourguide.es/paris-l16/montmartre-tour-a-pie-t390548/
+        }
+    },
+    {
+        caption: 'London',
+        coverPage:'https://i.postimg.cc/kMxyBJx3/2.png'
+        textAlt:´image of suitcase´
+        quote:'What neighborhood do you want to go to?'
+        country: 'UK',
+        description: 'UK has specific regulations to be a freelancer and has a network of companies that help you to do it legally. In addition, the network of coworking's in large cities is huge and each better equipped. For this reason, it is very comfortable to work in this country while getting to know its culture and outstanding places.',
+        pictures: [
+            'https://i.postimg.cc/fbpr2QmD/2.png',
+            'https://i.postimg.cc/9M9NsgYT/3.png',
+            'https://i.postimg.cc/P56cDwqL/4.png',
+            ],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d258557.7082820029!2d-0.38178583985785625!3d51.528735196048615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondres%2C%20Reino%20Unido!5e1!3m2!1ses-419!2sar!4v1628923729416!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 23, fixed broadband: 49},
+        voltage:230,
+        plugs: tipo G,
+        currency: GBP,
+        cryptocurrencies: BTC, ETH, LTC, BCH,
+        itineraries{
+            {
+                    "name": "London like Sherlock Holmes",
+                    "author": "Olive Burrell",
+                    "pictureAuthor":"https://i.postimg.cc/J7qBh1M5/33.png",
+                    "textAlt":"the author winks and makes a funny and provocative face. Her mane of red curls take the whole picture and highlight her personality.",
+                    "quote":"The truth is rarely pure and never simple - Oscar Wilde",
+                        "price": 1,
+                    "budget": "Make this money to cover this day: 100 EUR",
+                    "likes": 0,
+                    "hashtags":["#sherlock", "#nightOnLondon", "#walkingTour", "#itineraryNomada"],
+                    "description": "The author shows you an itinerary with which to know beautiful sensations of London 'on your feet'. You will stroll through the streets of London's East End with tales of the Jack the Ripper stories. It will be like going back in time with your guide ... in the streets of London that make it real. Along with the other activities you can order them to your liking on the day, in which a beautiful Coworking in central London and a beautiful place to have breakfast is indicated. To which you can add if this has been a little place to mix in one of the most metropolitan cities in the world.",
+                    "cityId": "6118af54665cb053a4f68c74"
+
+                },
+                {
+                    "name": "Extraordinary London",
+                    "author": "Cam Pemberton",
+                    "pictureAuthor":"https://i.postimg.cc/9XtyqdtT/25.png",
+                    "textAlt":"the author wrinkles his face a little as a sign of 'I don't know', but if he does, it is clearly a joke for the mirror in which he sees himself. He has short hair, a padlocked beard, and is on a dark background.",
+                    "quote":"Most people are other people. Their thoughts are someone else's opinions, their lives a mimicry, their passions a quotation.― Oscar Wilde",
+                        "price": 4,
+                    "budget": "Make this money to cover this day: 300 EUR",
+                    "likes": 0,
+                    "hashtags":["#nightOnThames", "#thamesRiver", "#nightOnLondon", "#vipLondon"],
+                    "description": "In an itinerary that begins quietly, Cam will take you through beautiful and sumptuous places in the heart of London, so that you can live the most careful and delicate experiences of British culture. Starting with a breakfast in a mythical place in London, passing through one of the best Coworkings in the city and then closing the day on a cruise on the River Thames. If as a digital nomad you have wanted to have a special tour to celebrate, then this is one that you can reserve for those beautiful moments.",
+                    "cityId": "6118af54665cb053a4f68c74"
+
+                }
+
+                tercera: https://www.getyourguide.es/londres-l57/londres-ticket-de-entrada-a-las-mazmorras-de-londres-t174546/
+        }
+        sites:https://www.diariobitcoin.com/mercados/analisis/todo-sobre-bitcoin-y-las-criptomonedas-en-el-reino-unido/,
+        https://www.getyourguide.es/londres-l57/londres-tour-a-pie-guiado-interactivo-jack-el-destripador-t359535/
+    },
+    {
+        caption: 'Berlin',
+        coverPage: 'https://i.postimg.cc/TYdn1rdg/7.png'
+        textAlt:'',
+        quote:'Where would you like your next exchange?',
+        country: 'Germany',
+        description: 'The German capital, a city that little by little has become an updated center at a business level, standing out as a result of the birth of multiple startups or young, creative, innovative companies willing to provide a lot of flexibility within their business culture, in case that you are interested in starting to look for a job that allows you to be a digital nomad.
+        Everyone who lives in Berlin, especially if they are young, feels how the city breathes color and originality, so if you are a digital nomad, you will have many opportunities to lead a better quality of life than in other European cities, make good contacts, communicate without problems in English, enjoy many incredible places where you can disconnect from work or connect to it, since you will not want to miss the Wi-Fi cafes that you will find on every corner.',
+        pictures: ['https://i.postimg.cc/v8nhbxR7/2.png
+                    https://i.postimg.cc/YSyRq1qR/3.png
+                    https://i.postimg.cc/HxqtbdM7/4.png, '', ''],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252965.0587775231!2d13.144545318776055!3d52.50693124209824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerl%C3%ADn%2C%20Alemania!5e1!3m2!1ses-419!2sar!4v1628923681728!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 31, fixed broadband: 35},
+        voltage:230,
+        plugs: tipo F,
+        currency: EUR,
+        cryptocurrencies: BTC, ETH, XRP, ADA,
+        sites: https://www.diariobitcoin.com/articulos/noticias/todo-sobre-bitcoin-y-las-criptomonedas-en-alemania/
+    },
+    {
+        caption: 'Venice',
+        coverPage: 'https://i.postimg.cc/fbGxRpyR/14.png'
+        textAlt:
+        quot:'What language would you like to learn?'
+        country: 'Italy',
+        description: 'Italy is a beautiful country and it could be very cheap, depending on the chosen location. Freelancers are welcome and have a long-term visa. So if you settled there, you could get to know the various Italian landscapes and states at your time and at your job. It also has a good mobile and fixed connection and cryptocurrency businesses are on the rise, so they are received in almost all the services you may need.',
+        pictures: [https://i.postimg.cc/VvY7r71y/2.png
+                    https://i.postimg.cc/2ymtdkQK/3.png
+                    https://i.postimg.cc/tgxvLZDc/4.png
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d291794.88717239676!2d12.10714115455568!3d45.40468289034315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eb1daf1d63d89%3A0x7ba3c6f0bd92102f!2sVenecia%2C%20Italia!5e1!3m2!1ses-419!2sar!4v1628923618233!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 51, fixed broadband: 48},
+        voltage:230,
+        plugs: tipo F/L,
+        currency: EUR,
+        cryptocurrencies: BTC, ETH, XRP, ADA,
+        sites: 'https://www.diariobitcoin.com/criptomonedas/todo-sobre-bitcoin-y-las-criptomonedas-en-italia/'
+    },
+    {
+        caption: 'Tokyo',
+        coverPage: 'https://i.postimg.cc/PrSYwPJc/9.png'
+        textAlt:'',
+        quote:'What kind of culture do you want to impregnate yourself?',
+        country: 'Japan',
+        description: 'One of the most contradictory and enigmatic countries in the world, Japan is where ancient and modern not only meet, but intertwine and combine into a truly unique blend. Home to some of the latest scientific advancements, multinational technology corporations, and flourishing sakura gardens, "The Land of the Rising Sun" is a mystery any nomad is lucky enough to explore.
+        
+        Some of the things that remote workers look for is high-speed Internet access and the latest technology to enable efficient communication. Japan is the mecca when it comes to new technology: From attending exhibitions to participating in startup meetings, here you can stay up-to-date with the latest trends in electronics, telecommunications, digital advancements, and more.
+        
+        Another factor that attracts working travelers and nomads to Japan is that this Asian country offers first-rate living standards, good food, and convenient infrastructure on par with European countries. That said, however, Japan is strikingly different from the rest of the world and its friendly extravagance allows its guests to broaden their horizons every day.',
+        pictures: [https://i.postimg.cc/sXbtV0j3/2.png
+                https://i.postimg.cc/hvxNhbvT/3.png
+                https://i.postimg.cc/7ZV8gVVN/4.png],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1353299.4427330396!2d138.64846094372376!3d35.50628940346834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2zVG9raW8sIEphcMOzbg!5e1!3m2!1ses-419!2sar!4v1628923587471!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 35, fixed broadband: 18},
+        voltage:100,
+        plugs: tipo A/B,
+        currency: JPY,
+        cryptocurrencies: BTC, ETH, BCH, LTC, XRP,
+        sites: https://www.diariobitcoin.com/criptomonedas/todo-sobre-bitcoin-y-las-criptomonedas-en-japon/,
+    },
+    {
+        caption: 'Barcelona',
+        coverPage: 'https://i.postimg.cc/mZNQTdsT/8.png'
+        textAlt:'',
+        quote:'What do you want to see through your window today?',
+        country: 'Spain',
+        description: 'With Spain's low cost of living and fantastic culture, infrastructure and location, there is a lot to recommend this country to any digital nomad, one such circumstance is that it offers a self-employed visa.',
+            pictures: [https://i.postimg.cc/kGzXPyZS/2.png
+                https://i.postimg.cc/Fz7s66Pm/3.png
+                https://i.postimg.cc/DZCwBhPB/4.png'],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77943.7980649001!2d2.0787273031280593!3d41.39489759440184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816718e30e5%3A0x44b0fb3d4f47660a!2sBarcelona%2C%20Espa%C3%B1a!5e1!3m2!1ses-419!2sar!4v1628923558710!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 37, fixed broadband: 13},
+        voltage:230,
+        plugs: tipo F,
+        currency: EUR,
+        cryptocurrencies: BTC, ETH,
+        sites:https://www.diariobitcoin.com/mercados/analisis/todo-lo-que-debe-saber-sobre-bitcoin-y-las-criptomonedas-en-espana/
+    },
+    {
+        caption: 'Bali',
+        coverPage:'https://i.postimg.cc/x1dGxLBn/12.png'
+        textAlt:
+        quote:'What flavor would you like to try?',
+        country: 'Indonesia',
+        description: 'Bali is, along with Chiang Mai, one of the most popular destinations for digital nomads. They have the advantage that everything is quite easy for Westerners.
+        
+        You can live perfectly speaking a little English, the accommodation is cheap, the food is delicious, and overall everything is excellent value for money.
+        
+        The most popular areas of Bali for expats are Canggu (beach areas) and Ubud (mountain area).',
+        pictures: [https://i.postimg.cc/X7CY23CY/2.png
+                    https://i.postimg.cc/1XL597LS/3.png
+                    https://i.postimg.cc/sf82911L/4.png],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d822179.6545213338!2d114.51101745270306!3d-8.454338457064557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd22f7520fca7d3%3A0x2872b62cc456cd84!2sBali!5e1!3m2!1ses-419!2sar!4v1628923513110!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 104, fixed broadband: 116},
+        voltage:230,
+        plugs: tipo C/F,
+        currency: IDR,
+        cryptocurrencies: locally adopted but not legal,
+    },
+    {
+        caption: 'Moscow',
+        coverPage:'https://i.postimg.cc/QCb5SMbF/6.png'
+        textAlt:
+        quote:'What adventures do you want to live?',
+        country: 'Russia',
+        description: 'Modern Russia has become a destination that many digital nomads are already going to discover under their own eyes, and it is that a lot is said about Russia, but no one really knows it until they live their experience, so why not start with the capital?
+        Moscow has to offer a powerful infrastructure, comfortable spaces to work, people who will understand you perfectly in English, places of entertainment that you will not want to miss in your leisure hours and places where you can park to work from your laptop without problems.',
+        pictures: [https://i.postimg.cc/MKJrf21Q/2.png
+                    https://i.postimg.cc/t45fHSZV/3.png
+                    https://i.postimg.cc/FKzPX9X2/4.png],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d469828.5713807933!2d36.825094929387255!3d55.581524336976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2zTW9zY8O6LCBSdXNpYQ!5e1!3m2!1ses-419!2sar!4v1628923475844!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 86, fixed broadband: 51},
+        voltage:220,
+        plugs: tipo C/F,
+        currency: RUB,
+        cryptocurrencies: BTC, USDT, ETH, LTC,
+        sites: https://www.diariobitcoin.com/articulos/noticias/todo-sobre-bitcoin-y-las-criptomonedas-en-rusia/
+        tour bike´s https://tourmoscu.com/moscu-para-ciclistas-como-alquilar-una-bicicleta-en-la-ciudad/
+    },
+    {
+        caption: 'Reykjavik',
+        coverPage:'https://i.postimg.cc/Hkj54d7L/10.png'
+        textAlt:
+        quote:'What wonders do you want to know?',
+        country: 'Iceland',
+        description: 'Iceland is a dream country. Traveling to Iceland means discovering an incredible nature that does not exist in any other country, a pure, clean and so, so different environment ... it means enjoying an unforgettable vacation visiting geysers, volcanoes or climbing glaciers. During your trip to Iceland, you will have the chance to watch whales, ride horses, visit lava deserts and one of the most beautiful waterfalls in Europe, see the Northern Lights, enjoy baths in natural hot springs or step on virgin lands that you have not yet stepped on. no tourists (except from Vikings :-).
+        
+        In addition, Iceland has a "Work in Iceland" program that makes it possible for digital nomads to work for up to six months in that country without having to worry.',
+        pictures: [https://i.postimg.cc/sgP51bsw/2.png
+                    https://i.postimg.cc/brdRtg3d/3.png
+                    https://i.postimg.cc/W3zZW3rH/4.png],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45423.11517837887!2d-16.27932185432897!3d64.07624571600157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48cfd6ecd73a3819%3A0xcd05c959e10146a9!2zSsO2a3Vsc8OhcmzDs24!5e1!3m2!1ses-419!2sar!4v1628923410347!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: N/A, fixed broadband: N/A},
+        voltage:230,
+        plugs: tipo F,
+        currency: ISK,
+        cryptocurrencies: BTC, ETH,
+    },
+    {
+        caption: 'Oia',
+        coverPage:'https://i.postimg.cc/cCM7jhs4/3.png',
+        textAlt:
+        quote:'Can you see the whole picture from where you are?',
+        country: 'Greece',
+        description: 'Greece is an easy destination and exit point for travelers, and as a member state of the Schengen Treaty, it allows residents to make short-term trips to many countries without a visa. In addition, digital nomads who hold the Golden Visa Greece, will be able to live indefinitely in the country with the possibility of traveling to other Schengen countries for periods of up to 90 days without the need to apply for additional visas.
+        
+        Greece is a place of fascinating natural and architectural beauty, and many freelancers travel to the country to be able to work from different scenic locations. Grecia offers a stable Internet connection, especially in the main cities, as well as coworking spaces and free Wi-fi in coffee shops. Greece is a holiday destination all year round. Famous for its crystal clear waters, pebble beaches, one of the healthiest cuisines in the world, the country offers a unique environment that many nomads are willing to explore.',
+        pictures: [https://i.postimg.cc/9fP38dZL/2.png
+                    https://i.postimg.cc/yxpCh7cB/3.png
+                    https://i.postimg.cc/5tWdS7YH/4.png],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10445.306096346294!2d25.372405574751415!3d36.46243688765968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1499cb8b1c44c1a9%3A0x400bd2ce2b9c750!2sOya%20847%2002%2C%20Grecia!5e1!3m2!1ses-419!2sar!4v1628923366704!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 20, fixed broadband: 100},
+        voltage:230,
+        plugs: tipo F,
+        currency: EUR,
+        cryptocurrencies: BTC, ETH,
+        sites: https://www.diariobitcoin.com/paises/europa/todo-sobre-bitcoin-y-las-criptomonedas-en-grecia/,
+    },
+    {
+        caption: 'Ha-Long Bay',
+        coverPage:'https://i.postimg.cc/gJhHydQh/11.png',
+        textAlt:
+        quote:'Do you feel your freedom?',
+        country: 'Vietnam',
+        description: 'Vietnam is emerging as a popular new destination for digital nomads and downshifters. As prices in most Asian countries are slowly rising, Vietnam remains in the favorable low-cost niche while offering all the necessary facilities to work remotely.
+        
+        Having remained off the nomadic radar until very recently, Vietnam has managed to preserve its rather non-touristy character that allows its visitors to stay in a less crowded environment for longer and on a smaller budget.
+        
+        Another thing that makes Vietnam stand out among its Asian neighbors is its burgeoning coffee culture. Introduced to the country by the French in the 19th century, coffee is now one of Vietnam's main exports and the reason behind the abundance of coffee shops in its large cities. The largest coffeehouse chain in the country is Trung Nguyen, which, with its 5-page coffee drink menu and comfortable low sofas, offers a convenient and inexpensive work environment.',
+        pictures: [https://i.postimg.cc/GtwqZVRY/2.png
+                    https://i.postimg.cc/fby2XY53/3.png
+                    https://i.postimg.cc/vB602MJb/4.png],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194203.23883278118!2d107.00953921427492!3d20.843729234900433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a5796518cee87%3A0x55c6b0bcc85478db!2sBah%C3%ADa%20de%20Ha-Long!5e1!3m2!1ses-419!2sar!4v1628923312079!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 58, fixed broadband: 59},
+        voltage:220,
+        plugs: tipo A / C / G,
+        currency: VND,
+        cryptocurrencies: BTC, ETH,
+    },
+    {
+        caption: 'Rovaniemi',
+        coverPage:'https://i.postimg.cc/xCLLJ5Ny/13.png',
+        textAlt:
+        quote:'Do you feel like a citizen of the world?',
+        country: 'Finland',
+        description: 'Among the attractions of Finland for digital nomads is that there the Government has managed to handle the Covid-19 pandemic very well, medical care is universal, the quality of life is very high, access to technology is wide and inexpensive .
+        
+        According to Huurre, “The technology sector is really thriving in Finland. According to an estimate, 50,000 new jobs should be created in 2021. We need the talent ”. That is why they offer super attractive visas for those interested in working in this area.
+        
+        The best city in Finland for digital nomads is Helsinki, the country's capital. There you can telecommute from various places, both public libraries and coffee shops and coworking centers. Internet is high speed and there are many free Wi-Fi networks.
+        
+        Another very attractive city for digital nomads is Tampere. This city has become an important technological and research center.',
+        pictures: [https://i.postimg.cc/MpVKwj1Q/2.png
+                    https://i.postimg.cc/tCLC8znb/3.png
+                    https://i.postimg.cc/pdvVLXB1/4.png],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4987.758540518975!2d26.580217846231296!3d67.41600660340042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45d2cc15734b7107%3A0x40146d63c75bfe0!2s99600%20Sodankyl%C3%A4%2C%20Finlandia!5e1!3m2!1ses-419!2sar!4v1628923264788!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 26, fixed broadband: 37},
+        voltage:230,
+        plugs: tipo F,
+        currency: EUR,
+        cryptocurrencies: BTC, ETH,
+        sites:https://www.diariobitcoin.com/paises/europa/todo-sobre-bitcoin-y-las-criptomonedas-en-finlandia/,
+    },
+    {
+        caption: 'Santa Cruz Island',
+        coverPage:'https://i.postimg.cc/x1dGxLBn/12.png',
+        textAlt:
+        quote:'Do you feel that the borders do not represent you?',
+        country: 'Galápagos Islands - Ecuador',
+        description: 'Ecuador has everything for one to be enchanted, be it majestic Andes, beautiful beaches, Amazon rainforest, lagoons, volcanoes, Galapagos. It is a visitor's paradise.
+        
+        Ecuador confirmed that it is analyzing, together with the Ministry of Foreign Affairs, the creation of a visa to legalize the temporary permanence of digital nomads.',
+        pictures: [https://i.postimg.cc/zBncX80p/2.png
+                https://i.postimg.cc/3J9zvr7c/3.png
+                https://i.postimg.cc/yN3GtFRM/4.png],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510666.0210365026!2d-90.63974996865824!3d-0.628487885211453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9aaa5f3c9454fba5%3A0x900d7fee5795677f!2sIsla%20Santa%20Cruz!5e0!3m2!1ses!2sar!4v1628922255843!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 92, fixed broadband: 106},
+        voltage:120 ,
+        plugs: tipo A/B,
+        currency: USD,
+        cryptocurrencies: not registers fiables,
+    },
+    {
+        caption: 'Luang Prabang',
+        coverPage: 'https://i.postimg.cc/fbGxRpyR/14.png',
+        textAlt:
+        quote:'Do you feel that you are not from one place?',
+        country: 'Laos',
+        description: 'This town, located in Laos, Indonesia, has gained relevance in the universe of digital nomadism for being one of the preferred destinations with unique conditions, reaching the point that many have gone with the plan to stay a few days and end up extending their visit for months.
+        
+        With low living costs, very decent internet, coworking spaces with dreamy views, pleasant weather, nightlife and ideal beaches to disconnect from work, practice sports and go sightseeing of all kinds, it seems that it is impossible to talk about digital nomads and not Mention Luang Prabang, Laos.',
+        pictures: [https://i.postimg.cc/yNqqVQ71/2.png
+                https://i.postimg.cc/h4Z9zN60/3.png
+                https://i.postimg.cc/GhZGzGc8/4.png],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d30015.33510336915!2d102.12813509156757!3d19.885731088427!3m2!1i1024!2i768!4f13.1!2m1!1scascadas%20de%20Luang%20Prabang!5e0!3m2!1ses-419!2sar!4v1628922188947!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 82, fixed broadband: 86},
+        voltage:230,
+        plugs: tipo A / B / C / E / F,
+        currency: LAK,
+        cryptocurrencies: BTC,
+
+        ITINERARIOS: https://goo.gl/maps/tRKCjmasPYeYL52p7
+        https://goo.gl/maps/Cojd6dA151QePe9L6
+    },
+    {
+        caption: 'Promthep Cape',
+        coverPage:'https://i.postimg.cc/15srFkHg/4.png',
+        textAlt:
+        quote:'If your home is the world, then you are one of us ... Welcome!',
+        country: 'Thailand',
+        description: 'Take the suitcase we're going to Promthep Cape! In this northern Thai destination, digital nomads also enjoy popularity, in general for being an inexpensive place, where it is possible to access many coworking areas with good internet connection, experience a climate that many consider perfect and close the day enjoying unforgettable tourist spaces after hard hours of work.',
+        pictures: [https://i.postimg.cc/T121t2s4/2.png
+                    https://i.postimg.cc/zBrVRFF5/3.png
+                    https://i.postimg.cc/GtM2Vwwh/4.png],
+        maps: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15813.055085869919!2d98.3053487!3d7.7618264!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb68d0b2dcb95a1b!2sPromthep%20Cape!5e0!3m2!1ses-419!2sar!4v1628921906820!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        ranking connection speed: {mobile: 48, fixed broadband: 7},
+        voltage:220,
+        plugs: tipo  A / B / C,
+        currency: THB,
+        cryptocurrencies: BTC, ETH,
+        Nui Beach
+        Chalong Pier https://g.page/chalongpier?share
+    },
+
+}
+
+sites general: https://www.speedtest.net/global-index/
+
+
+
+const itinerariesByCity{
+    {
+        name: 'Night on Paris',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+        https://www.servcorp.fr/fr/notre-societe/
+    },
+    {
+        name: 'London',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+        https://www.regus.com/es-es/united-kingdom/coworking
+    },
+    {
+       name: 'Night on Paris',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+    },
+    {
+       name: 'Night on Paris',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+    },
+    {
+        name: 'Tokio',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+        https://www.expat.com/es/guia/asia/japon/16878-conviertete-en-un-nomada-digital-en-japon.html
+    },
+      {
+        name: 'Night on Paris',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+    },
+      {
+        name: 'Night on Paris',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+    },
+      {
+        name: 'Night on Paris',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+    },
+      {
+        name: 'Night on Paris',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+    },
+      {
+        name: 'Night on Paris',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+    },
+      {
+        name: 'Night on Paris',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+    },
+      {
+        name: 'Night on Paris',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+        finlandia:
+        ITINERARIOS
+        https://msfilmfestival.fi/en/
+        https://santashotels.fi/en/kilpisjarvi-night-adventure-sleigh-ride/
+
+    },
+      {
+        name: 'Night on Paris',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+    },
+      {
+        name: 'Night on Paris',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+    },
+      {
+        name: 'Night on Paris',
+        duration: '2 hs.',
+        description: '',
+        pictures: ['', '', ''],
+        maps: '',
+        tone and style: 'serious or relaxed '
+        individual office: false,
+        sprinter office: false,
+        print service: false,
+        phone service: false,
+        international call service: false;
+        receptionist: false,
+        schedule: business hours
+    },
+}
+
+
+
+Sites of interes
+'https://www.enchufesdelmundo.com/francia/'
+
+
+
+
+Since the Coronavirus pandemic, remote work has been valued more than ever, establishing itself as a new work modality throughout the world, even thought in a post-pandemic scenario. Digital nomads are those who make this modality a lifestyle, living and working from anywhere in the world.
+
+The pandemic has helped many countries take this into account. In the description of each city we provide you with the information that we have collected in this regard. 
+
+botones del menu de inicio
+https://www.freelanceuk.com/running_business/benefits-travelling-while-freelancing.shtml
+Los nómadas digitales tienen muchos lugares en el mundo para elegir, desde ciudades tecnológicas, hasta pueblos medievales y villas con magníficas playas. No obstante, todos estos lugares deben tener algunas características en común. La primera, y más importante, es una buena conexión a internet.
+
+También es importante que haya lugares adecuados para el desarrollo de actividades, como espacios de trabajo compartidos, cafeterías con wifi gratis o lugares donde sea posible organizar eventos y reuniones sociales online.
+
+En tercer lugar, es esencial que el lugar de destinación ofrezca la posibilidad de visado: algunos países permiten solicitar visas de residencia a cambio de inversión. Una de las más populares es la Golden Visa Grecia, puesto que el país heleno cumple con todas las características mencionadas posteriormente.
+
+Qué es la Golden Visa Grecia
